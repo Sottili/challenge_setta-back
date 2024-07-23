@@ -1,7 +1,7 @@
-<h1 align="center" style="font-weight: bold;">Badges API - Cidade Alta Challenge 💻</h1>
+<h1 align="center" style="font-weight: bold;">API Challenge Setta</h1>
 
 <p align="center">
-    <b>System to Badges API</b>
+    <b>System to Data Metrics</b>
 </p>
 
 <h2 id="technologies">💻 Technologies</h2>
@@ -9,10 +9,9 @@
 - Typescript
 - PostgreSQL
 - NestJS
-- Bcrypt
-- JsonWebToken
 - PrismaORM
 - NodeJS
+- Docker
 
 <h2 id="started">🚀 Getting started</h2>
 
@@ -50,29 +49,12 @@ npm run start (to execute this project)
 
 Main routes of API, and what are their expected request bodies.
 
-User Routes
+Routes
 ​
 | route               | description                                          
 |----------------------|-----------------------------------------------------
-| <kbd>GET /users/create</kbd>     | create users
-| <kbd>GET /users/badges/:id</kbd>    | returns the badges belonging to a user
-| <kbd>POST /users/badges/:id</kbd>     | recovers a badge for that user
-| <kbd>DELETE /users/badges/:id</kbd>     | delte a badge for that user
-| <kbd>GET /users/badges</kbd>    | returns the badges of all users
-
-Auth Route
-
-| route               | description                                          
-|----------------------|-----------------------------------------------------
-| <kbd>POST /auth/login</kbd>     | login user
-
-Badges Routes
-
-| route               | description                                          
-|----------------------|-----------------------------------------------------
-| <kbd>GET /badges</kbd>     | return all badges
-| <kbd>GET /badges/name</kbd>     | returns the badge corresponding to the name passed
-| <kbd>GET /badges/slug</kbd>     | returns a specific slug
+| <kbd>GET /metricas/get-metrics     | retrieve a metrics
+| <kbd>POST /metricas/post-metrics    | post new metrics
 
 <h2 id="colab">🤝 Collaborators</h2>
 
